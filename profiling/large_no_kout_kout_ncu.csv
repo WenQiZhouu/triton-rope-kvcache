@@ -1,0 +1,7 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==PROF== Connected to process 10864 (python.exe)
+==PROF== Disconnected from process 10864
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","10864","python.exe","127.0.0.1","_half_split_optional_kout","1","7","(32, 1, 1)","(256, 32, 1)","0","8.6","Command line profiler metrics","dram__bytes_read.sum","byte","5,397,120"
+"0","10864","python.exe","127.0.0.1","_half_split_optional_kout","1","7","(32, 1, 1)","(256, 32, 1)","0","8.6","Command line profiler metrics","dram__bytes_write.sum","byte","4,330,752"
+"0","10864","python.exe","127.0.0.1","_half_split_optional_kout","1","7","(32, 1, 1)","(256, 32, 1)","0","8.6","Command line profiler metrics","dram__throughput.avg.pct_of_peak_sustained_elapsed","%","84.40"

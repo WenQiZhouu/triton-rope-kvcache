@@ -1,0 +1,21 @@
+# No virtual environments, profiles, generated files or credentials
+.venv*/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.log
+*.ncu-rep
+*.nsys-rep
+*.sqlite
+*.ptx
+*.cubin
+*.run
+*.zip
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+NVIDIA Corporation/

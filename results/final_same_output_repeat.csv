@@ -1,0 +1,17 @@
+shape,T,QH,KVH,D,dtype,selected_family,selected_BH,selected_warps,baseline,latency_us,vs_selected_speedup,trials_us,correctness
+small_gqa,1,32,8,128,float16,v3,1,4,flaggems_2k,8.7145,4.3102,8.6325;8.7145;11.2919;7.9569;8.0216;12.9058;11.0534,Qrot/Krot/Kcache/Vcache PASS
+small_gqa,1,32,8,128,float16,v3,1,4,our_2k,2.6736,1.3224,2.6736;4.6971;2.5010;4.0257;2.5477;2.5123;3.3243,Qrot/Krot/Kcache/Vcache PASS
+small_gqa,1,32,8,128,float16,v3,1,4,sglang_fused,2.5937,1.2828,3.2082;5.3130;2.4653;2.4568;2.5937;5.0383;2.4401,Qrot/Krot/Kcache/Vcache PASS
+small_gqa,1,32,8,128,float16,v3,1,4,our_v1_bh1_w4,1.6035,0.7931,2.8841;1.6782;1.5922;1.5794;1.6984;1.5783;1.6035,Qrot/Krot/Kcache/Vcache PASS
+small_gqa,1,32,8,128,float16,v3,1,4,selected,2.0219,1.0,2.2361;2.0219;1.5849;1.5369;1.8553;2.6712;2.8296,Qrot/Krot/Kcache/Vcache PASS
+medium_gqa,64,32,8,128,float16,v3,4,4,flaggems_2k,10.2714,2.5499,13.5822;8.7500;10.7219;8.6515;10.2714;8.6541;12.0373,Qrot/Krot/Kcache/Vcache PASS
+medium_gqa,64,32,8,128,float16,v3,4,4,our_2k,8.6103,2.1375,5.7594;8.9029;10.9673;8.1424;9.4052;5.6912;8.6103,Qrot/Krot/Kcache/Vcache PASS
+medium_gqa,64,32,8,128,float16,v3,4,4,sglang_fused,15.0758,3.7426,12.7287;20.9658;15.0758;19.1760;15.5542;11.6863;13.5115,Qrot/Krot/Kcache/Vcache PASS
+medium_gqa,64,32,8,128,float16,v3,4,4,our_v1_bh1_w4,6.1551,1.528,7.0587;4.2078;5.7165;7.1196;7.3957;6.1551;4.4123,Qrot/Krot/Kcache/Vcache PASS
+medium_gqa,64,32,8,128,float16,v3,4,4,selected,4.0282,1.0,4.0282;2.5867;4.2332;2.5800;4.3882;5.0065;2.6174,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,flaggems_2k,55.3031,1.2276,65.2765;53.5354;60.0174;51.1323;52.8360;72.3654;55.3031,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,our_2k,61.4918,1.3649,83.5674;58.1266;68.0626;58.5690;57.8952;61.4918;66.3817,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,sglang_fused,90.2376,2.003,90.0098;105.1708;90.2376;98.2348;83.3622;97.4387;70.7030,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,our_v1_bh1_w4,53.7215,1.1924,52.6411;52.6568;55.0468;53.7215;54.3862;50.2158;57.2418,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,selected,45.0514,1.0,47.2815;44.4355;42.7835;49.4109;44.7643;49.5147;45.0514,Qrot/Krot/Kcache/Vcache PASS
+large_gqa,256,64,8,128,float16,v2,2,1,v3_alt_bh2_w1,50.2358,1.1151,45.1728;46.0651;62.3818;50.3972;46.2650;50.2358;50.3854,Qrot/Krot/Kcache/Vcache PASS

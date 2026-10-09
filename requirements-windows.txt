@@ -1,0 +1,4 @@
+# Tested: Python 3.12 / PyTorch 2.4.0+cu121 / RTX 3060
+# Install compatible CUDA PyTorch FIRST: https://pytorch.org/get-started/locally/
+triton-windows==3.3.1
+pytest>=8,<9
